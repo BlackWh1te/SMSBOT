@@ -1,0 +1,24 @@
+# secrets and data
+.env
+.env.*
+!.env.example
+*.db
+*.db-journal
+*.bak
+*.bak2
+
+# local docs: only README.md goes to the repository
+*.md
+!README.md
+
+# environment and caches
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# local-only files
+Screenshot*.png
+banner_preview.png
+*.zip
